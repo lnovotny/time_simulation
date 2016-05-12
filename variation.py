@@ -5,7 +5,7 @@ from __future__ import print_function
 from math import log, exp
 
 def days_cost(day):
-	return int(4 + 0.3 * day)
+	return int(3 + 0.3 * day)
 
 def get_glasses(day):
 	if day < 9:
