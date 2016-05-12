@@ -4,6 +4,17 @@ from __future__ import division
 from __future__ import print_function
 from math import log, exp
 
+def days_cost(day):
+	return int(4 + 0.3 * day)
+
+def get_glasses(day):
+	if day < 9:
+		return 12
+	return 0
+
+def get_price(day):
+	return 8
+	
 def get_signs(day, assets, sign_cost):
 	return 1
 def base_demand(price):
